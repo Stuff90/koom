@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+ 
+.icon-cog:before { content: '\2699'; } /* '⚙' */
+.icon-flash:before { content: '\26a1'; } /* '⚡' */
+.icon-mail:before { content: '\2709'; } /* '✉' */
+.icon-comment-alt:before { content: '\e0a3'; } /* '' */
+.icon-heart-empty:before { content: '\e0e1'; } /* '' */
+.icon-trash:before { content: '\e729'; } /* '' */
+.icon-bicycle:before { content: '\e80a'; } /* '' */
+.icon-comment-empty:before { content: '\f0e5'; } /* '' */
+.icon-food:before { content: '\f0f5'; } /* '' */
+.icon-users:before { content: '👥'; } /* '\1f465' */
+.icon-dollar:before { content: '💵'; } /* '\1f4b5' */

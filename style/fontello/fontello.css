@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+ @font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?42863969');
+  src: url('../font/fontello.eot?42863969#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?42863969') format('woff'),
+       url('../font/fontello.ttf?42863969') format('truetype'),
+       url('../font/fontello.svg?42863969#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?42863969#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - magrins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-cog:before { content: '\2699'; } /* '⚙' */
+.icon-flash:before { content: '\26a1'; } /* '⚡' */
+.icon-mail:before { content: '\2709'; } /* '✉' */
+.icon-comment-alt:before { content: '\e0a3'; } /* '' */
+.icon-heart-empty:before { content: '\e0e1'; } /* '' */
+.icon-trash:before { content: '\e729'; } /* '' */
+.icon-bicycle:before { content: '\e80a'; } /* '' */
+.icon-comment-empty:before { content: '\f0e5'; } /* '' */
+.icon-food:before { content: '\f0f5'; } /* '' */
+.icon-users:before { content: '👥'; } /* '\1f465' */
+.icon-dollar:before { content: '💵'; } /* '\1f4b5' */
