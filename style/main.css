@@ -19,7 +19,9 @@ h1 {color:#fefefe;font-weight:100;}
 h2 {color:#535353;font-weight:lighter;font-size:1rem;}
 a, a:visited, a:active, a:link {text-decoration:none;}
 hr {background-color:#e9e9e9;border-bottom:solid 1px #fff;margin:20px auto 40px auto;width:80%;opacity:.2;}
-em {color: #e6905c;font-style: normal;}
+em {font-style: normal;}
+.orange{color: #e6905c;}
+.blue{color: #289c9e;}
 .bold{font-weight: bold;}
 
 .ui-content-emphasizer {background-color:#fff;border-radius:7px;box-shadow:0px 3px 10px #ddd;padding:10px;}
@@ -321,9 +323,9 @@ background:url('img/icon-facebook.png') 25px 12px no-repeat,rgb(88,135,175);back
 
 
 
-.icon-based-menu {width:720px;margin:0 auto;margin-bottom:50px;}
+.icon-based-menu {width:720px;margin:0 auto;margin-bottom:30px;}
 .icon-based-menu > ul {display: inline-block;}
-.icon-based-menu > ul > li {float: left;width:120px;height: 16px;font-family: "FuturaMedium",arial,serif;font-size: 14px;color: #e2e2e2;padding-top: 30px;text-align:center;}
+.icon-based-menu > ul > li {float: left;width:120px;font-family: "FuturaMedium",arial,serif;font-size: 14px;color: #e2e2e2;padding-top: 30px;text-align:center;}
 
 .icon-based-menu > ul > li > span {display:none;padding-top: 5px;}
 .icon-based-menu > ul > li:not(.active):hover {background-position-y:-52px;cursor:pointer;color:#504c4c;opacity: .4;}
