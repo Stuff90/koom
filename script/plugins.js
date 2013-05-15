@@ -186,7 +186,7 @@ $(document).ready(function() {
     $("#action-counter-wrapper").actionScore()
     $("#user-connexion-wrapper").connexion()
 
-
+    alert('lol');
 
     $(".sub-menu").click(function(){
         if(!$(this).hasClass("active"))
