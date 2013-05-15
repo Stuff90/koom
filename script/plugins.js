@@ -112,6 +112,19 @@ function wait(time, statement){setTimeout(function(){statement()},time);}
             });
         },
 
+        iconBasedMenu: function(){
+            return this.each(function(){
+                var self = $(this)
+                self.find('li').each(function(){
+                    $(this).click(function(){
+                        var index = $(this).index();
+                        $(this).addClass('active').siblings().removeClass('active');
+                        $(self.siblings('section').hide()[index]).show()
+                    });
+                });
+            });
+        },
+
         lastestDiscussionsHandler: function() {
 
             return this.each(function(){
@@ -177,34 +190,14 @@ function wait(time, statement){setTimeout(function(){statement()},time);}
     });
 })(jQuery);
 
-$(document).ready(function() {
+$(document).ready(function(){
     initializeMap();
+    $(".user-avatar-wrapper > a").toggleLogin();
+    $(".icon-based-menu").iconBasedMenu()
     $("#video").enlargeVideo();
     $("#rewards").tabs();
-    $(".user-avatar-wrapper > a").toggleLogin();
     $('#lastest-discussions').lastestDiscussionsHandler();
     $("#action-counter-wrapper").actionScore()
     $("#user-connexion-wrapper").connexion()
-
-
-    $(".sub-menu").click(function(){
-        if(!$(this).hasClass("active"))
-        {
-            $(".section-kezakoom").hide();
-            $(".active").removeClass("active");
-            $(this).addClass("active");
-            var selectedItem=$(this);
-            var i=2;
-            $(".sub-menu").each(function(){
-                if($(this).hasClass("active"))
-                {
-                    $(".section-kezakoom:nth-child("+i+")").show();
-                    console.log($(".section-kezakoom:nth-child("+i+")"));
-                    return false;
-                }
-                i++;
-            });
-        }
-    });
 });
 
