@@ -330,3 +330,4 @@ background:url('img/icon-facebook.png') 25px 12px no-repeat,rgb(88,135,175);back
 .icon-based-menu > ul > li:not(.active):hover >span {display:block;opacity:.4;color: #504c4c;}
 .icon-based-menu > ul > li.active {background-position-y:-100px;cursor:pointer;color:#504c4c;}
 .icon-based-menu > ul > li.active > span {display:block;}
+
