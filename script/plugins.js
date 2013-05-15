@@ -102,7 +102,8 @@ function wait(time, statement){setTimeout(function(){statement()},time);}
 
         actionScore: function() {
 
-            return this.each(function() {
+            return this.each(function(){
+                cs();
                 var scoreWrapper = $(this).find('#action-score');
                 var scaleWidth = $(this).find('#action-scale-wrapper').width();
                 var scoreWidth = scaleWidth / scoreWrapper.attr('goal') * scoreWrapper.text();
