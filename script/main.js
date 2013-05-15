@@ -202,6 +202,9 @@ function initializeMap() {
         mapTypeId: google.maps.MapTypeId.ROADMAP
         
     };
+    var container = document.getElementById('map-wrapper');
+    if(container != undefined){
+        var map = new google.maps.Map(document.getElementById('map-wrapper'), mapOptions);
+    };
 
-    var map = new google.maps.Map(document.getElementById('map-wrapper'), mapOptions);
 }
