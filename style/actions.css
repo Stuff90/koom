@@ -16,3 +16,17 @@
 #main > section article{margin-bottom: 50px;}
 #main > section article > h4{color: #1192a6;text-transform: none;text-align: left;margin-bottom: 40px;}
 #main > section > article > p{text-align: left;}
+
+#sidebar > #sidebar-partage{padding: 0;margin-top: 15px;}
+#sidebar > #sidebar-partage ul{display: inline-block;height: 84px;text-align: center;}
+#sidebar > #sidebar-partage ul li{float: left;width: 60px;height: 57px;font-size: 24px;color: #d1c724;margin:13px 0;background-repeat: no-repeat;background-position: 50%;}
+#sidebar > #sidebar-partage ul li span{font-size: 12px;text-transform: uppercase;}
+#sidebar > #sidebar-partage ul li:first-child, #sidebar > #sidebar-partage ul li:last-child{width: 90px;}
+#sidebar > #sidebar-partage ul li:first-child{width: 89px; border-right:1px solid #f9f9f9;padding-top: 15px;}
+#sidebar > #sidebar-partage ul li:last-child{background-image: url(img/sidebar-icon-recommander.png);}
+#sidebar > #sidebar-partage ul li:nth-child(2){background-image: url(img/sidebar-icon-facebook.png);}
+#sidebar > #sidebar-partage ul li:nth-child(3){background-image: url(img/sidebar-icon-twitter.png);}
+
+#sidebar > .separateur{width: 251px;height: 1px;background-color: #e9e9e9;margin:0 auto;margin-top: 15px;border-bottom: 1px solid #f9f9f9;}
+
+#sidebar > #sidebar-map, #sidebar > #sidebar-map #map-wrapper{width: 300;height: 265px;}
