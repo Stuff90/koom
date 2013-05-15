@@ -31,3 +31,10 @@
 
 .see-all-actions-wrapper {width:100%;padding:60px 0 30px 0;text-align:center;background:url('img/dots.png') center 0px no-repeat;}
 
+#points-wrapper {text-align:center;}
+#points-wrapper > div > p:not(:last-child) {font-family:'GillSans',arial,serif;color:#636363;}
+#points-wrapper > div > p:first-child {text-transform:uppercase;}
+#points-wrapper > div > p:last-child {margin:10px;}
+#points-wrapper > div > p > span {color:#d1c724;}
+#points-wrapper > div > p:first-child > span {font-weight:bold;}
+
