@@ -1,7 +1,7 @@
 #main{width: 650px;text-align: center;padding-bottom: 30px;}
 #sidebar{width: 300px;padding-left: 30px;}
 
-#main button{margin-bottom: 10px;}
+#main .sub-button{margin-top: 15px;}
 
 #main > #actions-content-wrapper{padding: 20px 0;text-align: center;}
 
