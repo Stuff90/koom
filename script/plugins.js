@@ -185,5 +185,27 @@ $(document).ready(function() {
     $('#lastest-discussions').lastestDiscussionsHandler();
     $("#action-counter-wrapper").actionScore()
     $("#user-connexion-wrapper").connexion()
+
+
+
+    $(".sub-menu").click(function(){
+        if(!$(this).hasClass("active"))
+        {
+            $(".section-kezakoom").hide();
+            $(".active").removeClass("active");
+            $(this).addClass("active");
+            var selectedItem=$(this);
+            var i=2;
+            $(".sub-menu").each(function(){
+                if($(this).hasClass("active"))
+                {
+                    $(".section-kezakoom:nth-child("+i+")").show();
+                    console.log($(".section-kezakoom:nth-child("+i+")"));
+                    return false;
+                }
+                i++;
+            });
+        }
+    });
 });
 
