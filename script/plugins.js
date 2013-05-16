@@ -101,12 +101,11 @@ function wait(time, statement){setTimeout(function(){statement()},time);}
         },
 
         actionScore: function() {
-
             return this.each(function(){
-                cs();
                 var scoreWrapper = $(this).find('#action-score');
+
                 var scaleWidth = $(this).find('#action-scale-wrapper').width();
-                var scoreWidth = scaleWidth / scoreWrapper.attr('goal') * scoreWrapper.text();
+                var scoreWidth = scaleWidth / scoreWrapper.attr('goal') * scoreWrapper.text().replace('%','');
                 wait(500,function(){
                     scoreWrapper.css({width:scoreWidth+'px',paddingRight:'10px'});                    
                 });
@@ -121,6 +120,9 @@ function wait(time, statement){setTimeout(function(){statement()},time);}
                         var index = $(this).index();
                         $(this).addClass('active').siblings().removeClass('active');
                         $(self.siblings('section').removeClass('active')[index]).addClass('active');
+                        wait(200,function(){
+                            $("#action-counter-wrapper").actionScore();
+                        });
                     });
                 });
             });
@@ -198,7 +200,7 @@ $(document).ready(function(){
     $("#video").enlargeVideo();
     $("#rewards").tabs();
     $('#lastest-discussions').lastestDiscussionsHandler();
-    $("#action-counter-wrapper").actionScore()
-    $("#user-connexion-wrapper").connexion()
+    $("#action-counter-wrapper").actionScore();
+    $("#user-connexion-wrapper").connexion();
 });
 

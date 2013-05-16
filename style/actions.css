@@ -1,6 +1,3 @@
-/*#actions-wrapper {width: 650px;text-align: center;padding-bottom: 30px;}*/
-/*#sidebar{width: 300px;padding-left: 30px;}*/
-
 #actions-wrapper .sub-button{margin-top: 15px;}
 
 #actions-wrapper > section {display:none;}
@@ -30,7 +27,5 @@
 #sidebar-partage ul li:last-child{background-image: url(img/sidebar-icon-recommander.png);}
 #sidebar-partage ul li:nth-child(2){background-image: url(img/sidebar-icon-facebook.png);}
 #sidebar-partage ul li:nth-child(3){background-image: url(img/sidebar-icon-twitter.png);}
-
-/*.separateur{width: 251px;height: 1px;background-color: #e9e9e9;margin:0 auto;margin-top: 15px;border-bottom: 1px solid #f9f9f9;}*/
 
 #sidebar-map, #sidebar > #sidebar-map #map-wrapper{width: 300;height: 265px;}
