@@ -1,9 +1,8 @@
 #kezakoom-wrapper {margin-top:40px;}
 
-#kezakoom-content-wrapper .section-kezakoom {display: none;}
-#kezakoom-content-wrapper .section-active {display: block;}
 
-#kezakoom-content-wrapper > section {display: inline-block;background-color: #fff;margin-bottom:40px; padding-top: 50px;}
+#kezakoom-content-wrapper > section {display:none;background-color: #fff;margin-bottom:40px; padding-top: 50px;}
+#kezakoom-content-wrapper > section.active {display:block;}
 #kezakoom-content-wrapper > section article{width: 100%;display: inline-block;margin-bottom: 50px;padding-bottom:50px;text-align: left;position: relative;min-height: 170px;background: url(img/bg-article.jpg) no-repeat;background-position: 265px 100%;}
 #kezakoom-content-wrapper > section article:last-child{background: none;padding-bottom: 0;}
 #kezakoom-content-wrapper > section article > h4{width:220px;float:left;font-size: 14px;color: #1192a6;text-transform: none;display:inline-block; vertical-align:middle;}
@@ -18,7 +17,7 @@
 #kezakoom-content-wrapper > #missions_valeurs > .pyramide {text-align: center;}
 #kezakoom-content-wrapper > #missions_valeurs > .pyramide > .valeur {display: inline-block;margin: 10px 0 20px 0;padding: 5px 15px;background-color: #bedee3;font-size: 13px;color: #fff;}
 
-#kezakoom-content-wrapper > #ils_en_parlent{display: inline-block;text-align: center;}
+#kezakoom-content-wrapper > #ils_en_parlent{text-align: center;}
 #kezakoom-content-wrapper > #ils_en_parlent > .partenaire{float: left;width: 487px;background: url(img/bg-article-small.jpg) no-repeat;background-position:40px 0%;padding-top: 30px;margin: 30px 0;}
 #kezakoom-content-wrapper > #ils_en_parlent > .partenaire:nth-child(odd){margin-right: 30px;}
 #kezakoom-content-wrapper > #ils_en_parlent > .partenaire:first-child, #kezakoom-content-wrapper > #ils_en_parlent > .partenaire:nth-child(2){margin-top: 0;padding-top: 0;background: none;}
