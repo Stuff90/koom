@@ -120,7 +120,7 @@ function wait(time, statement){setTimeout(function(){statement()},time);}
                     $(this).click(function(){
                         var index = $(this).index();
                         $(this).addClass('active').siblings().removeClass('active');
-                        $(self.siblings('section').hide()[index]).show()
+                        $(self.siblings('section').removeClass('active')[index]).addClass('active');
                     });
                 });
             });

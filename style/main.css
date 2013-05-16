@@ -325,9 +325,9 @@ background:url('img/icon-facebook.png') 25px 12px no-repeat,rgb(88,135,175);back
 
 .icon-based-menu {width:720px;margin:0 auto;margin-bottom:30px;}
 .icon-based-menu > ul {display: inline-block;}
-.icon-based-menu > ul > li {float: left;width:120px;font-family: "FuturaMedium",arial,serif;font-size: 14px;color: #e2e2e2;padding-top: 30px;text-align:center;}
+.icon-based-menu > ul > li {float: left;width:120px;font-family: "FuturaMedium",arial,serif;font-size:2rem;color: #e2e2e2;padding-top: 30px;text-align:center;}
 
-.icon-based-menu > ul > li > span {display:none;padding-top: 5px;}
+.icon-based-menu > ul > li > span {display:none;padding-top:5px;font-size:.9rem;}
 .icon-based-menu > ul > li:not(.active):hover {background-position-y:-52px;cursor:pointer;color:#504c4c;opacity: .4;}
 .icon-based-menu > ul > li:not(.active):hover >span {display:block;opacity:.4;color: #504c4c;}
 .icon-based-menu > ul > li.active {background-position-y:-100px;cursor:pointer;color:#504c4c;}
