@@ -102,9 +102,9 @@ function wait(time, statement){setTimeout(function(){statement()},time);}
 
         actionScore: function() {
             return this.each(function(){
-                var scoreWrapper = $(this).find('#action-score');
+                var scoreWrapper = $(this).find('p');
 
-                var scaleWidth = $(this).find('#action-scale-wrapper').width();
+                var scaleWidth = $(this).find('div').width();
                 var scoreWidth = scaleWidth / scoreWrapper.attr('goal') * scoreWrapper.text().replace('%','');
                 wait(500,function(){
                     scoreWrapper.css({width:scoreWidth+'px',paddingRight:'10px'});                    
@@ -200,7 +200,7 @@ $(document).ready(function(){
     $("#video").enlargeVideo();
     $("#rewards").tabs();
     $('#lastest-discussions').lastestDiscussionsHandler();
-    $("#action-counter-wrapper").actionScore();
+    $("#action-counter-wrapper,.action-counter-wrapper").actionScore();
     $("#user-connexion-wrapper").connexion();
 });
 
