@@ -1,0 +1,35 @@
+#main > p {width:30%;margin:auto;text-align:center;margin-bottom:100px;}
+#main > p > a {color:#fff;}
+
+#town-involved-wrapper {margin:0 0 50px 0;}
+#town-involved-wrapper > h2 {margin:15px 0 15px 0;}
+#town-involved-wrapper > dl {}
+#town-involved-wrapper > dl > dd {margin:15px 0 15px 60px;}
+#town-involved-wrapper > dl > dd > * {display:inline-block;vertical-align:top;}
+#town-involved-wrapper > dl > dd > div {width:40px;height:40px;}
+#town-involved-wrapper > dl > dd > div > img {width:100%;height:100%;}
+#town-involved-wrapper > dl > dd > p {width:150px;margin-left:12px;font-size:.9rem;font-family:'GillSans',arial,serif;}
+#town-involved-wrapper > dl > dd > p > i {font-size:.8rem;}
+
+
+#find-people-wrapper {}
+#find-people-wrapper > p {text-align:center;width:100%;margin:20px 0 20px 0;text-transform:uppercase;color:#535353;font-size:.9rem;font-weight:bold;}
+#find-people-wrapper > p:first-child {text-align:center;width:27%;margin:30px auto 0 auto;text-transform:none;font-size:.8rem;}
+#find-people-wrapper > p > a {color:#fff;font-family:'Century Gothic',arial,serif;}
+#find-people-wrapper > form {text-align:center;}
+#find-people-wrapper > form > input {padding:7px;box-shadow:inset 0px 0px 5px #ddd;background-color:#ededed;font-size:.9rem;border:none;width:300px;}
+#find-people-wrapper > form > a {}
+
+
+#people-list-wrapper > dl {width:100%;margin:50px 0 50px 0;}
+#people-list-wrapper > dl > dd {display:inline-block;width:280px;vertical-align:top;margin:10px 0 10px 0;}
+#people-list-wrapper > dl > dd:nth-child(even) {margin-left:29px;}
+#people-list-wrapper > dl > dd > * {display:inline-block;vertical-align:top}
+#people-list-wrapper > dl > dd > * {display:inline-block;vertical-align:top;}
+#people-list-wrapper > dl > dd > div {width:40px;height:40px;}
+#people-list-wrapper > dl > dd > div > img {width:100%;height:100%;}
+#people-list-wrapper > dl > dd > p {width:180px;margin-left:12px;font-size:.9rem;font-family:'GillSans',arial,serif;}
+#people-list-wrapper > dl > dd > p > i {font-size:.8rem;}
+#people-list-wrapper > dl > dd > p:last-child {width:40px;height:40px;margin-left:0;}
+#people-list-wrapper > dl > dd > p:last-child > a {font-size:2rem;padding:0px 8px;}
+#people-list-wrapper > p {width:100%;padding:60px 0 30px 0;text-align:center;background:url('img/dots.png') center 0px no-repeat;margin-top:20px;}
