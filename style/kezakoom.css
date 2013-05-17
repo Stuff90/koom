@@ -1,7 +1,7 @@
 #kezakoom-wrapper {margin-top:40px;}
 
 
-#kezakoom-content-wrapper > section {display:none;background-color: #fff;margin-bottom:40px; padding-top: 50px;}
+#kezakoom-content-wrapper > section {display:none;;margin-bottom:40px; padding-top: 50px;}
 #kezakoom-content-wrapper > section.active {display:block;}
 #kezakoom-content-wrapper > section article{width: 100%;display: inline-block;margin-bottom: 50px;padding-bottom:50px;text-align: left;position: relative;min-height: 170px;background: url(img/bg-article.jpg) no-repeat;background-position: 265px 100%;}
 #kezakoom-content-wrapper > section article:last-child{background: none;padding-bottom: 0;}
