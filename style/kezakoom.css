@@ -17,7 +17,7 @@
 #kezakoom-content-wrapper > #missions_valeurs > .pyramide {text-align: center;}
 #kezakoom-content-wrapper > #missions_valeurs > .pyramide > .valeur {display: inline-block;margin: 10px 0 20px 0;padding: 5px 15px;background-color: #bedee3;font-size: 13px;color: #fff;}
 
-#kezakoom-content-wrapper > #ils_en_parlent{text-align: center;}
+#kezakoom-content-wrapper > #ils_en_parlent{text-align: center;padding-bottom: 20px;}
 #kezakoom-content-wrapper > #ils_en_parlent > .partenaire{float: left;width: 487px;background: url(img/bg-article-small.jpg) no-repeat;background-position:40px 0%;padding-top: 30px;margin: 30px 0;}
 #kezakoom-content-wrapper > #ils_en_parlent > .partenaire:nth-child(odd){margin-right: 30px;}
 #kezakoom-content-wrapper > #ils_en_parlent > .partenaire:first-child, #kezakoom-content-wrapper > #ils_en_parlent > .partenaire:nth-child(2){margin-top: 0;padding-top: 0;background: none;}
@@ -26,4 +26,3 @@
 #kezakoom-content-wrapper > #ils_en_parlent > .partenaire .description h6{font-size: 13px;}
 #kezakoom-content-wrapper > #ils_en_parlent > .partenaire .description h6:first-child{font-weight: normal;}
 #kezakoom-content-wrapper > #ils_en_parlent > .partenaire .description p{font-size: 13px;margin-top: 20px;}
-#kezakoom-content-wrapper > #ils_en_parlent > button{margin-top: 20px;}
