@@ -91,11 +91,12 @@
 
 
 
-#points-wrapper {text-align:center;margin:0 0 15px 0;}
+#points-wrapper {text-align:center;margin:0 0 40px 0;}
 #points-wrapper > h2 {margin-bottom:10px}
 #points-wrapper > div {margin-left:60px;width:250px;}
 #points-wrapper > div > p:not(:last-child) {font-family:'GillSans',arial,serif;color:#636363;}
 #points-wrapper > div > p:first-child {text-transform:uppercase;}
+#points-wrapper > div > p:nth-child(2) {font-size:.85rem;}
 #points-wrapper > div > p:last-child {margin:10px;}
 #points-wrapper > div > p > span {color:#d1c724;}
 #points-wrapper > div > p:first-child > span {font-weight:bold;}
