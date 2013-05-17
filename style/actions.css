@@ -1,7 +1,9 @@
 #actions-wrapper .sub-button{margin-top:15px;}
 
-#actions-wrapper > section {display:none;}
+#actions-wrapper > section {display:none;margin-bottom:100px;}
 #actions-wrapper > section.active {display:block;}
+
+#actions-wrapper > section > p {text-align:center;}
 
 #actions-wrapper > #actions-content-wrapper{padding:20px 0;text-align:center;}
 #actions-wrapper > #actions-content-wrapper > img {width:100%;}
@@ -14,8 +16,8 @@
 #actions-wrapper > .tab-menu{width:270px;}
 #actions-wrapper > .tab-menu li{width:135px;}
 
-#actions-wrapper > section article{margin-bottom:50px;}
-#actions-wrapper > section article > h4{color:#1192a6;text-transform:none;text-align:left;margin-bottom:40px;}
+#actions-wrapper > section > article{margin-bottom:50px;}
+#actions-wrapper > section > article > h4{color:#1192a6;text-transform:none;text-align:left;margin-bottom:40px;}
 #actions-wrapper > section > article > p{text-align:left;}
 
 #sidebar-partage {padding:0;margin-top:15px;}

@@ -195,8 +195,10 @@ setTimeout(function(){
 
 function initializeMap() {
 
+    var zoom = $('#map-wrapper').attr('zoom');
+
     var mapOptions = {
-        zoom: 6,
+        zoom:parseInt(zoom),
         center: new google.maps.LatLng(47.902964,1.909251),
         disableDefaultUI: true,
         mapTypeId: google.maps.MapTypeId.ROADMAP
