@@ -66,7 +66,7 @@
 #profil-infos-wrapper > #profil-infos > #profil-infos-mailbox-menu {}
 #profil-infos-wrapper > #profil-infos-mailbox-menu > li {display:inline-block;vertical-align:top;margin:2px 5px 0 5px;}
 #profil-infos-wrapper > #profil-infos-mailbox-menu > li > a {padding:8px 20px;}
-#profil-infos-wrapper > #profil-infos-mailbox-menu > li:first-child {margin-top:0;width:210px;}
+#profil-infos-wrapper > #profil-infos-mailbox-menu > li:first-child {margin-top:0;width:209px;}
 #profil-infos-wrapper > #profil-infos-mailbox-menu > li:last-child {margin-right:0;}
 #profil-infos-wrapper > #profil-infos-mailbox-menu > li:first-child > a {padding:10px 4px 5px 4px;}
 #profil-infos-wrapper > #profil-infos-mailbox-menu > li:first-child > a > i {font-size:1.1rem;}
