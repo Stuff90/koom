@@ -1,0 +1,30 @@
+#offer-action-wrapper {margin:30px 0 100px 0;}
+#offer-action-wrapper > .offer-action-button-wrapper {width:50%;margin:auto;text-align:center;}
+#offer-action-wrapper > .offer-action-button-wrapper > p {margin:20px;}
+#offer-action-wrapper > .offer-action-button-wrapper > p:nth-child(2) {font-family:'GillSans',arial,serif;font-size:.85rem;}
+#offer-action-wrapper > .offer-action-button-wrapper > p:nth-child(2) > span {color:#df814c;}
+#offer-action-wrapper > .offer-action-details > p {font-family:'GillSans',arial,serif;}
+#offer-action-wrapper > .offer-action-details > p:first-child {text-align:center;width:100%;margin:20px 0 20px 0;text-transform:uppercase;color:#535353;font-size:.9rem;font-weight:bold;}
+#offer-action-wrapper > .offer-action-details > hr {width:40%;}
+
+
+
+.offer-action-details > p {}
+.offer-action-details > ul {text-align:center;}
+.offer-action-details > ul > li {display:inline-block;vertical-align:top;margin:0 10px 0 10px;}
+.offer-action-details > ul > li > a {color:#e2e2e2;text-shadow: 0px -1px -1px #888;filter: dropshadow(color=#888, offx=0, offy=-1);font-size:2rem;}
+.offer-action-details > ul > li > a:hover {color:#535353;}
+
+.news-page-counter {margin:50px 0 50px 0;text-align:center;}
+.news-page-counter > li {display:inline-block;vertical-align:middle;font-size:.8rem;font-weight:bold;ont-family:'GillSans',arial,serif;}
+.news-page-counter > li.active {font-size:1.2rem;}
+.news-page-counter > li > a {text-decoration:none;color:#535353;}
+.news-page-counter > li > a:hover {text-decoration:underline;}
+
+.offer-actions-list-wrapper {}
+.offer-actions-list-wrapper > dl {}
+.offer-actions-list-wrapper > dl > dt {color:#e2e2e2;font-size:5rem;float:left;text-shadow: 0px -1px -1px #888;filter: dropshadow(color=#888, offx=0, offy=-1);font-size:2rem;padding-top:30px;}
+.offer-actions-list-wrapper > dl > dd {margin:20px 0 40px 60px;}
+.offer-actions-list-wrapper > dl > dd > p {width:570px;}
+.offer-actions-list-wrapper > dl > dd > p:first-child {float:right;width:230px}
+.offer-actions-list-wrapper > dl > dd > p:nth-child(2) {text-transform:uppercase;color:#df814c;}
