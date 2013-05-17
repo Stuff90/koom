@@ -4,6 +4,7 @@
 #actions-wrapper > section.active {display:block;}
 
 #actions-wrapper > section > p {text-align:center;}
+#actions-wrapper > section > p:last-child {font-size:.8rem;}
 
 #actions-wrapper > #actions-content-wrapper{padding:20px 0;text-align:center;}
 #actions-wrapper > #actions-content-wrapper > img {width:100%;}
