@@ -5,6 +5,12 @@
 #profil-wrapper > section.active {display:block;}
 #profil-wrapper > section > h4 {text-transform:none;color:#1192a6;font-family:'FuturaMedium',arial,serif;font-weight:lighter;font-size:1.1rem;}
 
+dd >  table{width: 100%;}
+dd >  table tr td{vertical-align: middle;}
+dd >  table tr td:first-child{width: 52px;}
+dd >  table tr td:nth-child(2){width: 180px;font-size:.9rem;font-family:'GillSans',arial,serif;}
+dd >  table tr td:last-child{width: 38px;height: 38px;}
+
 .stream {margin:20px 0 40px 0;}
 .stream > dt {margin-top:10px;}
 .stream > dt > p {padding:5px 5px 5px 55px;font-size:.6rem;}
@@ -34,18 +40,12 @@
 .see-all-actions-wrapper {width:100%;padding:60px 0 30px 0;text-align:center;background:url('img/dots.png') center 0px no-repeat;margin-bottom:200px;}
 
 
-#profil-my-contacts > dl {width:100%;}
+#profil-my-contacts > p {width:100%;padding:60px 0 30px 0;text-align:center;background:url('img/dots.png') center 0px no-repeat;margin-top:20px;}
+
+
 #profil-my-contacts > dl > dd {display:inline-block;width:280px;vertical-align:top;margin:10px 0 10px 0;}
 #profil-my-contacts > dl > dd:nth-child(even) {margin-left:29px;}
-#profil-my-contacts > dl > dd > * {display:inline-block;vertical-align:top}
-#profil-my-contacts > dl > dd > * {display:inline-block;vertical-align:top;}
-#profil-my-contacts > dl > dd > div {width:40px;height:40px;}
-#profil-my-contacts > dl > dd > div > img {width:100%;height:100%;}
-#profil-my-contacts > dl > dd > p {width:180px;margin-left:12px;font-size:.9rem;font-family:'GillSans',arial,serif;}
-#profil-my-contacts > dl > dd > p > i {font-size:.8rem;}
-#profil-my-contacts > dl > dd > p:last-child {width:40px;height:40px;margin-left:0;}
-#profil-my-contacts > dl > dd > p:last-child > a {font-size:2rem;padding:0px 8px;}
-#profil-my-contacts > p {width:100%;padding:60px 0 30px 0;text-align:center;background:url('img/dots.png') center 0px no-repeat;margin-top:20px;}
+#profil-my-contacts dd >  table tr td:last-child a{font-size:2rem;padding:0px 8px;}
 
 
 
@@ -102,14 +102,7 @@
 #points-wrapper > div > p:first-child > span {font-weight:bold;}
 
 #my-godsons {margin-top:50px;}
+#my-godsons > dl > dd {margin:15px 0 15px 60px;}
 #my-godsons > p {width:100%;padding:60px 0 30px 0;text-align:center;background:url('img/dots.png') center 0px no-repeat;margin-left:30px;}
 #my-godsons > h2 {margin:15px 0 15px 0;}
-#my-godsons > dl {}
-#my-godsons > dl > dd {margin:15px 0 15px 60px;}
-#my-godsons > dl > dd > * {display:inline-block;vertical-align:top;}
-#my-godsons > dl > dd > div {width:40px;height:40px;}
-#my-godsons > dl > dd > div > img {width:100%;height:100%;}
-#my-godsons > dl > dd > p {width:150px;margin-left:12px;font-size:.9rem;font-family:'GillSans',arial,serif;}
-#my-godsons > dl > dd > p > i {font-size:.8rem;}
-#my-godsons > dl > dd > p:last-child {width:40px;height:40px;margin-left:0;}
-#my-godsons > dl > dd > p:last-child > a {font-size:2rem;padding:0px 8px;}
+#my-godsons dd >  table tr td:last-child a{font-size:2rem;padding:0px 8px;}
