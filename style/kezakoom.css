@@ -26,3 +26,5 @@
 #kezakoom-content-wrapper > #ils_en_parlent > .partenaire .description h6{font-size: 13px;}
 #kezakoom-content-wrapper > #ils_en_parlent > .partenaire .description h6:first-child{font-weight: normal;}
 #kezakoom-content-wrapper > #ils_en_parlent > .partenaire .description p{font-size: 13px;margin-top: 20px;}
+
+#kezakoom-content-wrapper > #notre_reve > article > p, #kezakoom-content-wrapper > #faq > article > p{width: 784px;}
