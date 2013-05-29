@@ -114,12 +114,34 @@ function wait(time, statement){setTimeout(function(){statement()},time);}
 
         iconBasedMenu: function(){
             return this.each(function(){
-                var self = $(this)
-                self.find('li').each(function(){
+                var self = $(this);
+                var menuItem = self.find('li');
+                var sections = self.siblings('section');
+                var target = document.URL.substring(document.URL.indexOf("#")+1);
+                var init = function(){
+                    menuItem.first().addClass('active');
+                    sections.first().addClass('active');
+                };
+
+                if(target !== document.URL){
+                    cs(sections.filter('#'+target));
+                    var index = sections.filter('#'+target).index('section');
+                    if(index !== -1){
+                        cs(index);
+                        $(menuItem[index]).addClass('active');
+                        $(sections[index]).addClass('active');
+                    } else {
+                        init();
+                    }
+                } 
+                if(target === document.URL){
+                    init();
+                }
+                menuItem.each(function(){
                     $(this).click(function(){
                         var index = $(this).index();
                         $(this).addClass('active').siblings().removeClass('active');
-                        $(self.siblings('section').removeClass('active')[index]).addClass('active');
+                        $(sections.removeClass('active')[index]).addClass('active');
                         wait(200,function(){
                             $("#action-counter-wrapper").actionScore();
                         });

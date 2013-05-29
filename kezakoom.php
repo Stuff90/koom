@@ -7,7 +7,7 @@
 			<div id="kezakoom-content-wrapper">
 				<nav class="icon-based-menu tab-menu">
 					<ul>
-						<li class="active icon-help sub-menu"><span>KezaKoom</span></li>
+						<li class="icon-help sub-menu"><span>KezaKoom</span></li>
 						<li class="icon-briefcase  sub-menu"><span>Missions et valeurs</span></li>
 						<li class="icon-star  sub-menu"><span>Notre rêve</span></li>
 						<li class="icon-chat  sub-menu"><span>FAQ</span></li>
@@ -15,7 +15,7 @@
 						<li class="icon-mail  sub-menu"><span>Contact</span></li>
 					</ul>
 				</nav>
-				<section class="section-active section-kezakoom active ui-content-emphasizer">
+				<section class="section-kezakoom ui-content-emphasizer">
 					<article>
 						<h4>KezaKoom ?</h4>
 						<p>
@@ -183,7 +183,7 @@
 					</div>
 					<a href="empty.php" class="ui-button">Voir tous les articles</a>
 				</section>
-				<section class="section-kezakoom ui-content-emphasizer">
+				<section class="section-kezakoom ui-content-emphasizer" id="contact">
 					CONTACT
 				</section>
 			</div>

@@ -8,13 +8,13 @@
 
 				<nav class="icon-based-menu tab-menu">
 					<ul>
-						<li class="active icon-comment-alt sub-menu"><span>Activités récente</span></li>
+						<li class="icon-comment-alt sub-menu"><span>Activités récente</span></li>
 						<li class="icon-users sub-menu"><span>Mes contacts</span></li>
 						<li class="icon-cog sub-menu"><span>Mes infos</span></li>
 					</ul>
 				</nav>
 
-				<section id="profil-activity" class="active">
+				<section id="profil-activity">
 					<h4>Nouvelles relations</h4>
 
 					<dl class="stream">
@@ -240,7 +240,7 @@
 
 				</section>
 
-				<section id="profil-infos-wrapper" class="ative">
+				<section id="profil-infos-wrapper">
 
 					<div id="profil-infos" class="ui-content-emphasizer">
 						<p><a href="#">Modifier mon profil</a></p>
