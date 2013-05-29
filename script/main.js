@@ -187,7 +187,7 @@ var animation = {
 setTimeout(function(){
     var startTime = (new Date()).getTime();
     animate(animation, canvas, context, startTime);
-}, 4000);
+}, 400);
 
 
 
