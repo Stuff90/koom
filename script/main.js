@@ -196,6 +196,18 @@ setTimeout(function(){
 function initializeMap() {
 
     var zoom = $('#map-wrapper').attr('zoom');
+    var markers = [
+        {
+            pos:new google.maps.LatLng(48.8839862,2.2687551),
+            name:'Nom du Koomeur',
+            url:'profil.php'
+        },
+        {
+            pos:new google.maps.LatLng(47.8839862,2.2687551),
+            name:'Nom du Koomeur',
+            url:'profil.php'
+        }
+    ];
 
     var mapOptions = {
         zoom:parseInt(zoom),
@@ -204,9 +216,30 @@ function initializeMap() {
         mapTypeId: google.maps.MapTypeId.ROADMAP
         
     };
+
     var container = document.getElementById('map-wrapper');
     if(container != undefined){
         var map = new google.maps.Map(document.getElementById('map-wrapper'), mapOptions);
+        
+
+        for (var i = 0; i < markers.length; i++) {
+            var theMarker = new google.maps.Marker({
+                position : markers[i].pos,
+                map      : map,
+                title    : markers[i].name,
+                icon     : 'style/img/map-pin.png',
+                url      : markers[i].url
+            });
+
+            google.maps.event.addListener(theMarker, "click", function(){
+                window.location = this.url;
+            });
+        }
     };
+
+
+
+
+    
 
 }
